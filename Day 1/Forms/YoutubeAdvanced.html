@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube advanced Info</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.inline {
+			display: inline;
+		}
+	</style>
+</head>
+<body>
+<h1>Разширени настройки</h1>
+<hr>
+<h4>Коментари</h4>
+<form action="#" method="post"> 
+	<input type="checkbox" name="allow-comments" value="allow-comments"> Разрешаване на коментари 
+	<select name="allowed-comments">
+		<option value="all">Всички</option>
+		<option value="approved">Одобрени</option>
+	</select>
+<br><input type="checkbox" name="users-check-rating" value="users-check-rating"> Потребителите могат да виждат оценките
+<hr>
+<h4>Собственост върху лиценза и правата</h4>
+<select name="license">
+	<option value="standart">Стандартен лиценз за YouTube</option>
+	<option value="creative">Криейтив комънс – Признание</option>
+</select>
+<hr>
+<h4>Синдикиране</h4>
+<input type="radio" name="Syndication" value="all">Навсякъде<br>
+<input type="radio" name="Syndication" value="money-income-platforms">Платформи, осигуряващи приходи
+<hr>
+<h4 class="inline">Дата на записа</h4>
+<input type="date" name="date-saved">
+<input type="button" name="today" value="Днес">
+<hr>
+<input type="submit" value="Запазване на промените">
+</form>
+</body>
+</html>

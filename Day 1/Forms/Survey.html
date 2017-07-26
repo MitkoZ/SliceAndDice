@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		table, th, td {
+			border:1px solid black;
+		}
+
+		th, td {
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+<form action="#" method="get">
+	<table>
+		<tr>
+			<th>Label</th>
+			<th>Choices</th>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>
+				<input type="email" name="email" placeholder="Enter your e-mail address" required>
+			</td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+				Male<input type="radio" name="gender" value="Male" checked><br>
+				Female<input type="radio" name="gender" value="Female">
+			</td>
+		</tr>
+		<tr>
+			<td>Favorite Fruits</td>
+			<td>
+				Oranges<input type="checkbox" name="fruit1" value="oranges"><br>
+				Apples<input type="checkbox" name="fruit2" value="apples"><br>
+				Pears<input type="checkbox" name="fruit3" value="pears"><br>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" value="Send!">
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

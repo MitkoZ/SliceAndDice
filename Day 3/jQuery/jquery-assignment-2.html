@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Assignment 2</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<style type="text/css">
+		html, body {
+			height: 100%;
+		}
+
+		html {
+			display: table;
+			margin: auto;
+		}
+
+		body {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		img {
+			width: 600px;
+			height: 500px;
+		}
+
+		#outer-div {
+			position: relative;
+			width: 600px;
+			height: 500px;
+		}
+
+		button {
+			position: absolute;
+		}
+
+		#right-button {
+			right: 0;
+			top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="outer-div">
+		<button id="left-button"><</button>
+		<div id="inner-div">
+			<img src="sample-image2.jpg" alt="bird" class="current">
+			<img src="sample-image3.jpeg" alt="duck">
+			<img src="sample-image4.jpg" alt="penguin">
+			<img src="sample-image5.jpg" alt="fox">
+		</div>
+		<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+		<script type="text/javascript" src="javascript2.js"></script>
+		<button id="right-button">></button>
+	</div>
+</body>
+</html>

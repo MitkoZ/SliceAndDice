@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User - Create</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>Create new user</h1>
+<form action="#" method="post">
+	<input type="hidden" name="creatorId" value="4">
+	<input type="hidden" name="creatorRole" value="Admin">
+	Username: <input type="text" name="username" required><br>
+	Email: <input type="email" name="email" required><br>
+	<h2>Upload a photo</h2>
+	<input type="file" name="photo">
+	<h2>Teams</h2>
+	Team1 <input type="checkbox" name="team1" value="team1"><br>
+	Team2 <input type="checkbox" name="team2" value="team2"><br>
+	Team3 <input type="checkbox" name="team3" value="team3">
+	<h2>Position</h2>
+	Position1 <input type="radio" name="position" value="position1"><br>
+	Position2 <input type="radio" name="position" value="position2"><br>
+	Position3 <input type="radio" name="position" value="position3">
+	<h2>Role</h2>
+	<textarea name="role" rows="4" cols="8">Admin Moderator User</textarea><br>
+	<input type="submit" value="Create!">
+</form>
+</body>
+</html>
